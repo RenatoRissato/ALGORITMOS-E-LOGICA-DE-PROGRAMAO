@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitcoin</title>
+</head>
+<body>
+ <h1>Agora temos o Bitcoin e o Bitcoin Cash</h1>
+
+<h2>Divergências no controle das transações fizeram um grupo defender mudanças tão abruptas que uma nova moeda digital surgiu </h2>
+
+<h5>Por Emerson Alecrim</h5>
+<h5>01/08/2017 às 16h35</h5> 
+
+
+<p>Quem lida com <strong>Bitcoin</strong> sabe que o valor dessa moeda é um carrinho de montanha-russa, indo para cima e para baixo rapidamente. É preciso ter sangue frio para lidar com as oscilações. Mas, talvez, nem o mais bem preparado investidor estivesse esperando que o Bitcoin (BTC) passasse por problemas que culminassem em uma nova moeda digital: o Bitcoin Cash já é realidade.
+
+O Bitcoin pode sofrer um soft fork, ou seja, uma alteração sistêmica que, por ser branda, é compatível com as versões anteriores do protocolo e, portanto, não costuma trazer problemas para a validação dos blocos. Assim, o ecossistema é mantido mesmo se alguns usuários não implementarem a atualização.
+
+Mas o que acontece agora é um hard fork: as mudanças propostas são tão expressivas que os nós que compõem o sistema do Bitcoin não conseguem validar os blocos formados com base nas novas regras. O resultado é uma bifurcação: as tais novas regras praticamente geram uma criptomoeda.</p>
+
+<img src="C:\Users\.Aluno\Desktop\html\figura-1.jpg">
+
+<h3>Por que criaram outra moeda?</h3>
+
+<p>Os criadores do <strong>Bitcoin Cash</strong>, basicamente, alegam que o sistema tradicional é muito limitado, pois só pode processar sete transações por segundo ou lidar apenas com 1 MB de dados agregados a cada dez minutos. Isso significa que, atualmente, muitos usuários precisam esperar até dias para as suas transações serem executadas.
+
+Nos primeiros minutos desta terça-feira (1), o Bitcoin Cash passou a existir oficialmente. Talvez não seja bem uma divisão, pois o Bitcoin original, por assim dizer, preserva a sua quantidade de moedas. O Bitcoin Cash, cuja sigla é BCC, surge como uma rede derivada da primeira. Divisão mesmo ocorreu entre os grupos.
+
+Muitas pessoas ligadas ao universo do Bitcoin acreditam que o Bitcoin realmente precisa de mudanças para que mais transações possam ser feitas simultaneamente e passaram a apoiar o SegWit (Segregated Witness), uma proposta de soft fork do Bitcoin que altera o processo de verificação das transações de modo a torná-las menores. Na prática, o limite passa a ser de 2 MB, isto é, mais transações podem ser realizadas por segundo.
+
+Há outro grupo, cujo principal representante é o ex-engenheiro do Facebook <em>Amaury Sechet</em>, que acredita que o SegWit não resolve o problema de escala do Bitcoin. É aqui que surge o Bitcoin Cash: trata-se, essencialmente, de uma implementação do Bitcoin, mas com limite de 8 MB e sem suporte ao SegWit, que agora faz parte do Bitcoin original.
+
+O resultado é que temos, agora, mais uma criptomoeda. Por ser diferente e ter apoio de um número considerável de usuários e grupos, o Bitcoin Cash pode se estabelecer com regras próprias. Os usuários que já tinham bitcoins antes da nova proposta terão as mesmas quantidades de moedas em Bitcoin Cash, mas as transações realizadas com cada variedade a partir de agora ficarão em suas respectivas redes.</p>
+
+<img src="C:\Users\.Aluno\Desktop\html\figura-2.jpg">
+
+<h3>Muitas incertezas pela frente</h3>
+
+<p>De todo modo, o impacto do processo levará algum tempo para ser medido. Há quem veja a bifurcação como positiva, pois permitirá que o mercado analise os sistemas e priorize aquele que considerar mais eficiente. Mas há também quem tema mais oscilações nas negociações das criptomoedas ou perda considerável de valores ao apoiar apenas uma das vertentes.
+
+Não é uma questão simples. Se de um lado há grupos que defendem o Bitcoin Cash com o argumento do aumento de capacidade, do outro, há quem acredite que esse diferencial dificultará o processamento de blocos por usuários individuais, deixando o controle do ecossistema nas mãos de organizações fortes.
+
+O efeito disso é uma certa — e previsível — incerteza no mercado. A casa de câmbio Coinbase, por exemplo, afirma ser difícil prever se o Bitcoin Cash vingará ou terá valor no mercado futuro. Pelo menos por enquanto, a empresa não efetuará transações com a nova criptomoeda. Já serviços como Kraken e Bitfinex já estão dando suporte.
+
+Fato é que, às 15h14 de hoje (horário de Brasília), o primeiro bloco de Bitcoin Cash foi minerado com sucesso. Isso significa que o blockchain da nova moeda (o livro que registra todas as transações) agora é realidade. Durante a publicação deste post, a criptomoeda estava sendo negociada a US$ 215 no Kraken. Já o Bitcoin tradicional (BTC) estava valendo US$ 2.736 (uma ligeira queda).
+
+Diante de tantas dúvidas, especialistas no assunto têm recomendado cautela: para quem não tem muita experiência ou conhecimento de criptomoedas, talvez seja prudente evitar fazer transações agora, mesmo que os preços se mostrem interessantes. O ideal é esperar que o mercado tenha um pouco mais de estabilidade ou, ao menos, que os aspectos referentes à coexistência das duas criptomoedas fiquem mais claros.</p>
+
+<p>Com informações: Business Insider [link: http://www.businessinsider.com/bitcoin-and-bitcoin-cash-2017-7]</p>
+
+<p>Fonte: Tecnoblog [link: https://tecnoblog.net/220271/bitcoin-cash-bcc-oficial/]</p>
+
+
+</body>
+</html>
