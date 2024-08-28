@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+class Programa1
+{
+    public static void main (String arg[])
+    {
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Digite números variaveis (e digite 0 para terminar): ");
+        int numero;
+        int menor = Integer.MAX_VALUE;;
+        int maior = Integer.MIN_VALUE;;
+        while(true){
+            System.out.print("Digite um número inteiro: ");
+            numero = teclado.nextInt();
+            if(numero ==0)
+            {
+                break;
+            }
+            if(numero< menor)
+            {
+                menor = numero;
+            }
+            if(numero> maior)
+            {
+                maior = numero;
+            }
+        }
+        if(menor == Integer.MAX_VALUE && maior == Integer.MIN_VALUE){
+            System.out.println("Nenhum número válido foi inserido.");
+        }else{
+        System.out.println("Menor valor: " + menor);
+        System.out.println("Maior valor: " + maior);
+    }
+        teclado.close();
+    }
+    
+}
