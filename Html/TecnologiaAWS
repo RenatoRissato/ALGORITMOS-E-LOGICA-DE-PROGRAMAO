@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnologia</title>
+</head>
+<body>
+ <h1  id="Inicio">Cloud Computing</h1>
+ <h2>Desvendando a Computação em Nuvem</h2>
+ <h3>O que é Cloud Computing ?</h3> 
+<p>A computação em nuvem é a entrega de recursos de TI sob demanda por meio da Internet com definição de preço de pagamento conforme o uso.</p> 
+ <p>Em vez de comprar, ter e manter datacenters e servidores físicos, você pode acessar serviços de tecnologia, como capacidade computacional, armazenamento e bancos de dados, conforme a necessidade, usando um provedor de nuvem como a Amazon Web Services (AWS).</p>
+ <h3>Quem usa a Computação em Nuvem</h3>
+ <p>Organizações de todos os tipos, portes e setores usam a nuvem para uma grande variedade de casos de uso, como backup de dados, recuperação de desastres, e-mail, desktops virtuais, desenvolvimento e teste de software, análises de big data e aplicativos web voltados ao cliente.</p> 
+ <p>Por exemplo, as empresas do setor de saúde usam a nuvem para desenvolver tratamentos mais personalizados para os pacientes. Empresas de serviços financeiros usam a nuvem como base para detectar e prevenir fraudes em tempo real. E fabricantes de videogames usam a nuvem para entregar jogos online para milhões de jogadores em todo o mundo.</p> 
+ <p>Gostaria de aprender mais sobre o AWS ? Clique na imagem abaixo.</p>
+ 
+
+<a href="https://aws.amazon.com/pt/what-is-cloud-computing/" target="_blank">
+  <img src="https://www.itexperts.com.br/wp-content/uploads/2023/03/29153501/servicosaws.png" width="50%"  /> </a>
+<p>Conheça o <a href="index2.html">Amazon EC2 </a> da AWS, um serviço que oferece uma plataforma computacional completa</p>
+
+<h2>Benefícios da computação em nuvem</h2>-
+<h2>Agilidade</h2>
+
+<p>A nuvem oferece acesso fácil a uma grande variedade de tecnologias para que você possa inovar mais rapidamente e criar praticamente tudo o que puder imaginar. Você pode gerar rapidamente recursos conforme a necessidade, de serviços de infraestrutura, como computação, armazenamento e bancos de dados até Internet das Coisas, machine learning, data lakes, análises de dados e muito mais.</p>
+
+<p>Você pode implantar serviços de tecnologia em questão de minutos e passar da ideia à implementação com agilidade várias ordens de grandeza maior do que antes. Assim, você tem a liberdade de experimentar, testar novas ideias para diferenciar as experiências dos clientes e transformar a sua empresa.</p>
+
+<a href="#Inicio"><p>Voltar ao Início</a></p>
+
+</body>
+</html>
