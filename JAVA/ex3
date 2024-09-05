@@ -1,0 +1,56 @@
+import java.util.Scanner;
+public class Pessoas
+{
+    private String nome;
+    private int idade;
+    private double altura;
+    private double peso;
+    
+    public Pessoas(String nome, int idade, double altura, double peso){
+        this.nome = nome;
+        this.idade = idade;
+        this.altura = altura;
+        this.peso = peso;
+             
+    }
+    public void MostrarNome(){
+        System.out.println("Nome: " +nome);
+    }
+    public void MostrarIdade(){
+        System.out.println("Idade: "+idade);
+    }
+    public void MostrarAltura(){
+        System.out.println("Altura: "+altura);
+    }
+    public void MostrarPeso(){
+        System.out.println("Peso: "+peso);
+    }
+    public void CalcularIMC(){
+        double IMC = (peso/(altura*altura));
+        if(IMC < 18.5){
+            System.out.println("Abaixo do peso");
+        }else if(IMC >=18.5 && IMC <=24.9){
+            System.out.println("Peso normal");
+        }else if(IMC >=25.0 && IMC <=29.9){
+            System.out.println("Acima do peso");
+        }else if(IMC >=30.0 && IMC <=34.9){
+            System.out.println("Obesidade Grau1");
+        }else if(IMC >=35.0 && IMC <=39.9){
+            System.out.println("Obesidade Grau2");
+        }else if(IMC >=40.0){
+            System.out.println("Obesidade Grau3");
+        }
+        System.out.println("O IMC é: " +IMC);
+    }
+
+    public static void main(String args[])
+    {
+    Pessoas pessoa1 = new Pessoas("Renato",19,1.80,100);
+    pessoa1.MostrarNome();
+    pessoa1.MostrarIdade();
+    pessoa1.MostrarAltura();
+    pessoa1.MostrarPeso();
+    pessoa1.CalcularIMC();
+    }
+}
+    
