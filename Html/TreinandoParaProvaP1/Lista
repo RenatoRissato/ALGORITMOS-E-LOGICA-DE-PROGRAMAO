@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<body>
+    <div style="text-align: center; background-color: darkgreen; color: white; padding: 20px;">
+    <h1>Picanha ao Forno com Sal Grosso</h1>
+    <ol>
+        <li>Picanha ao Forno com Sal Grosso</li>
+        <li>Coloque a picanha com a parte da gordura virada para cima. Dica: a picanha pode ser colocada para assar congelada. </li>
+        <li>Cubra a carne com o restante do sal, não deixando nenhuma parte da carne exposta. </li>
+        <li>Leve a assadeira para o forno a 200 graus. </li>
+        <li>Retire a camada do sal e corte em fatias.</li>
+        <li>Aqueça a manteiga junto com o azeite em uma frigideira, frite a cebola por alguns instantes e derrame sobre a picanha preparada.</li>
+    </ol>
+
+    <h2>Modo de preparo</h2>
+
+    <ul>
+<li>Em uma assadeira retangular média, coloque a picanha com a parte da gordura voltada para cima, e polvilhe com o AJI-SAL®, espalhando por toda a superfície da carne. Leve ao forno quente (200 graus), preaquecido, por 1 hora, ou até que a carne esteja assada e dourada.</li>
+
+<li>Retire do forno, fatie e sirva em seguida.</li>
+
+    </ul>
+
+    <a href="bolo1.jpg" target="_blank">
+        <img src="mini/bolo1.jpg" alt="Bolo1">
+    </a>
+    <a href="bolo2.jpg">
+        <img src="mini/bolo2.jpg" alt="bolo2">
+    </a>
+    <a href="bolo3.jpg">
+        <img src="mini/bolo3.jpg" alt="bolo3">
+    </a>
+    <a href="bolo4.jpg">
+        <img src="mini/bolo4.jpg" alt="Bolo4">
+    </a>
+    <a href="bolo5.jpg">
+        <img src="mini/bolo5.jpg" alt="bolo5">
+    </a>
+
+    <a href="https://www.google.com/?authuser=0"><p>Agora acesse o GOOGLE.</p></a>
+</div>
+
+<div style="text-align: center;background-color: black;color: white; padding: 20px; margin-top: 100px;">
+    <p>
+        &copy;2024 Site de Games.Todos os direitos reservados.E-mail: contatos@sitedegames.com
+    </p>
+
+</div>
+</body>
+</html>
