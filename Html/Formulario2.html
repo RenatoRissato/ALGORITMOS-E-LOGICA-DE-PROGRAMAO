@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulário</title>
+	<style type="text/css">
+		label{
+			display: inline-block;
+			width: 120px;
+			text-align: right;
+			line-height: 2;
+		}
+
+	</style>
+</head>
+<body>
+	<h2>Cadastro</h2>
+	<form action="arquivo.php" method="POST">
+		<label for="nome">Nome: </label>
+		<input type="text" name="nome" id="nome"> <br>
+		<label for="endereco">Endereço: </label>
+		<input type="text" name="endereco" id="endereco"> <br>
+		<label for="idade">Idade: </label>
+		<input type="number" name="idade" id="idade" min="0" max="120" step="1"> <br>
+		<label for="email">E-mail: </label>
+		<input type="email" name="email" id="email" placeholder="fulano@email.com.br"> <br>
+		<label for="telefone">Telefone:</label>
+		<input type="tel" name="telefone" id="telefone" placeholder="(99)99999-9999"> <br>
+		<label for="site">Site: </label>
+		<input type="url" name="site" id="site"><br>
+		  <label for=" data" >Data</label>
+    <input id="data" name="data"
+           type="date"><br>
+    <label for="data_hora">Data e Hora</label>
+    <input id="data_hora" name="data_hora"
+           type="datetime-local"><br>
+    <label for="senha">Senha</label>
+    <input id="senha" name="senha"
+          type="password"><br>
+    <label for="comentario">Comentário</label>
+    <textarea id="comentario" name="comentario"
+              rows="4" cols="30"></textarea><br>
+    <label for="Linguagens">Linguagens</label>
+    <input type="checkbox" name="Linguagens"
+    value="c#">C#
+    <input type="checkbox" name="Linguagens"
+    value="Java">Java
+    <input type="checkbox" name="Linguagens"
+    value="Kotlin">Kotlin<br>
+    <label>Sexo</label>
+    <input type="radio" name="sexo" value="M">Masculino
+    <input type="radio" name="sexo" value="F">Feminino
+    <input type="radio" name="sexo" value="I">Indefinido<br>
+    <label for="botao_upload"> Botão de <i>Upload</i></label>
+    <input type="file" name="botao_upload"
+    id="botao_upload"><br>
+    <label for="estado">Estado</label>
+    <select id="estado" name="estado=">
+        <option value="SP"select>São Paulo</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="PR">Paraná</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="BA">Bahia</option>
+    </select><br>
+    <input type="submit" value="Enviar">
+  
+
+
+	</form>
+
+</body>
+</html>
