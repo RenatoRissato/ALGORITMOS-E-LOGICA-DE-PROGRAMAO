@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Vetor2
+{
+    public static void main (String args[])
+    {
+    Scanner t = new Scanner(System.in);
+    int[] vetor = new int[5];
+    for(int i=0;i<5;i++)
+    {
+        System.out.println("Digite um numero: ");
+        vetor[i] = t.nextInt();
+    }
+
+    int tmp;
+    for(int i=0;i<4;i++)
+    {
+        if(vetor[i] > vetor[i+1]){
+            tmp = vetor[i];
+            vetor[i] = vetor [i+1];
+            vetor[i+1] = tmp;
+
+        }
+    }
+    System.out.println("Valores digitados no vetor: ");
+    for(int i=0;i<5;i++)
+    {
+    System.out.println(vetor[i]);
+    
+    }
+
+
+    System.out.println(vetor.length);
+}
+}
