@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Matriz
+{
+    public static void main( String args[])
+    {
+        Scanner t = new Scanner(System.in);
+        int[][] m = new int[4][4];
+        for(int i=0;i<4;i++)
+        {
+            for(int j=0;j<4;j++)
+            {
+                System.out.print("Digite valor para("+i+","+j+") : ");
+                m[i][j] = t.nextInt();
+                
+            }
+        }
+        
+        System.out.println("Matriz digitado: ");
+        for(int i=0;i<4;i++)
+        {
+            for(int j=0;j<4;j++)
+            {
+                System.out.print(m[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
