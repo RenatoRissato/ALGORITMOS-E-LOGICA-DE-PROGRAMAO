@@ -1,0 +1,13 @@
+public class principal
+{
+    public static void main(String args[])
+    {
+        ContaPoupanca conta = new ContaPoupanca();
+        conta.setSaldo(1500);
+        conta.imprimeExtrato();
+        
+        ContaCorrente conta2 = new ContaCorrente();
+        conta2.setSaldo(1257);
+        conta2.imprimeExtrato();
+    }
+}
