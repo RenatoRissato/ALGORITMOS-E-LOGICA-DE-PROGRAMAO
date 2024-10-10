@@ -1,0 +1,15 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class ContaCorrente extends conta
+{
+    @Override
+    public void imprimeExtrato()
+    {
+        System.out.println("Extrato Conta Corrente");
+        SimpleDateFormat data = new SimpleDateFormat("dd/MM/yyyy");
+        Date dthoje = new Date();
+        System.out.format("Saldo: %.2f \n", getSaldo());
+        System.out.println("data: " + data.format(dthoje));
+    }
+}
