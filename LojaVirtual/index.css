@@ -1,0 +1,31 @@
+.BoxPrincipal{
+  background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.BarraPesquisa{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px; /* Distância do topo */
+
+}
+/* Container de produtos */
+.ConteinerProdutos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que os produtos quebrem de linha quando necessário */
+    justify-content: space-between; /* Espaçamento entre os produtos */
+    gap: 20px; /* Espaço entre os itens */
+    padding: 20px;
+}
+
+/* Estilo de cada produto */
+.Produto {
+    background-color: #fff;
+    width: calc(33.333% - 20px); /* Cada produto ocupará 1/3 da linha, considerando o gap */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Para esconder qualquer conteúdo que ultrapasse a borda */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
